@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import About from '../src/components/About/About';
+import { CV } from "./CV"
+import Education from './components/Education/Education';
+import Experience from './components/Experience/Experience';
+import Hero from './components/Hero/Hero';
+import More from './components/More/More';
+import { useDispatch, useSelector } from 'react-redux';
+import { clickEducation } from './redux/cv/cv.actions';
+
+
+
+
+const { hero, education, experience, languages, habilities, volunteer } = CV;
+
 
 function App() {
+  const dispatch = useDispatch();
+  const educationProp = useSelector(state => {
+    console.log(state, 'tipiwiny');
+     return state.educationBlock.educationProp}
+
+  )
+  console.log(educationProp, 'pepe');
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Hero hero={hero}/>
+      <About hero={hero.aboutMe} />
+      <button onClick={() => dispatch(clickEducation())}>Education</button>
+      <button>Experiencia</button>
+      {educationProp ? <Education education={education}/> : <Experience experience={experience}/>}
+      {/* <Education education={education}/> 
+      <Experience experience={experience}/> */}
+      <More
+      languages={languages}
+      /*
+      habilities={habilities}
+      volunteer={volunteer}*/
+      /> 
     </div>
   );
 }
