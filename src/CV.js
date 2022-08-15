@@ -1,18 +1,19 @@
 export const CV = {
     hero: {
       name: "José Antonio Martín Guisado",
+      profession: "FullStack Developer JavaScript",
       adress: "C/ Juan Miró, 20",
       city: "Los Palacios y Villafranca (Sevilla)",
       email: "joseantoniomartin.87@gmail.com",
       birthDate: "24/09/1987",
       phone: "635478489",
       image: "https://i.imgur.com/ZQAkED3.png",
-      gitHub: "https://github.com/tonystark",
+      gitHub: "https://github.com/josmargui",
       aboutMe: [
         {
-          info: "🤖 My armor, it was never a distraction or a hobby, it was a cocoon. I am Iron Man.",
+          info: "Persona autodidacta, alegre, dinámica y responsable. Cualificada y experimentada para trabajar en equipos multiculturales y multidisciplinares. Durante toda mi experiencia laboral he seguido la premisa de seguir todas las fases del proyecto, así como entender la totalidad del mismo para poder realizar un trabajo con excelencia. Persona inquieta por mejorar cada día y crecer personal",
         },
-        {
+        /* {
           info: "🔩 CEO of Stark Industries.",
         },
         {
@@ -20,40 +21,71 @@ export const CV = {
         },
         {
           info: "🦾 I do have a responsibility to keep my inventions from evil hands – but I have a greater responsibility to oppose that evil any way I can.",
-        },
+        }, */
       ],
     },
     education: [
       {
-        name: "Master in physics",
-        date: "1985",
-        where: "MIT",
+        name: "Bootcamp FullStack Developer",
+        date: "2022",
+        where: "Upgrade Hub",
       },
       {
-        name: "Aeronautical Engineering",
-        date: "1995",
-        where: "ATI Vaughn College",
+        name: "Máster SEO Webpositer",
+        date: "2021",
+        where: "Webpositer Academy",
       },
       {
-        name: "Weapons Engineer",
-        date: "1998",
-        where: "Firearm Collegue, Queens",
+        name: "Ing. Técn. en Informática de Sistemas",
+        date: "2013",
+        where: "Universidad de Sevilla",
       },
     ],
     experience: [
       {
-        name: "Consultant",
-        date: "01/01/2013 – Nowadays",
-        where: "S.H.I.E.L.D",
+        name: "Web Developer Manager & SEO",
+        date: "Enero 2017 - Actualidad",
+        where: "alGenio Marketing Online",
         description:
-          "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
+          "Desarrollo de tareas específicas como especialista SEO realizando estrategias para diferentes clientes y de diferentes sectores con el objetivo de mejorar el posicionamiento orgánico en buscadores. Todo ello se realizaba mediante el uso de herramientas como ahrefs, Sistrix, Screaming Frog, Data Studio, etc consiguiendo grandes resultados. Responsable del departamento de Desarrollo Web desempeñando tareas de creación, gestión y ampliación de dicho departamento. Desde 2017 he estado desarrollando tareas de toma de requisitos, organización, arquitectura y programación para proyectos web y de comercio electrónico. Conocimiento avanzado de PHP, HTML, CSS y MySQL." 
+          ,
+
       },
       {
-        name: "CEO",
-        date: "01/01/2000 – 28/02/2012",
-        where: "Stark Industries",
+        name: "Cofundador y CTO",
+
+        date: "Noviembre 2014 – Actualmente, Sevilla",
+        where: "Idea e Imprime",
         description:
-          "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
+          "Creación y gestión de la empresa de regalos personalizados Idea e Imprime. Realización de tareas comerciales y gestión de equipo. Desarrollador de la web corporativa www.ideaeimprime.com y la tienda online de regalos personalizados www.turegalopersonal.com."
+          ,
+      },
+      {
+        name: "Jefe de Equipo en Supercell",
+
+        date: "Noviembre 2014 – Actualmente, Sevilla",
+        where: "Idea e Imprime",
+        description:
+          "Creación y gestión de la empresa de regalos personalizados Idea e Imprime. Realización de tareas comerciales y gestión de equipo. Desarrollador de la web corporativa www.ideaeimprime.com y la tienda online de regalos personalizados www.turegalopersonal.com."
+          ,
+      },
+      {
+        name: "Proyecto Fin de Carrera",
+
+        date: "Noviembre 2014 – Actualmente, Sevilla",
+        where: "Idea e Imprime",
+        description:
+          "Creación y gestión de la empresa de regalos personalizados Idea e Imprime. Realización de tareas comerciales y gestión de equipo. Desarrollador de la web corporativa www.ideaeimprime.com y la tienda online de regalos personalizados www.turegalopersonal.com."
+          ,
+      },
+      {
+        name: "Soporte Técnico y Monitor de Calidad en Supercelll",
+
+        date: "Octubre 2013-Octubre 2014",
+        where: "Idea e Imprime",
+        description:
+          "Creación y gestión de la empresa de regalos personalizados Idea e Imprime. Realización de tareas comerciales y gestión de equipo. Desarrollador de la web corporativa www.ideaeimprime.com y la tienda online de regalos personalizados www.turegalopersonal.com."
+          ,
       },
     ],
     languages: {

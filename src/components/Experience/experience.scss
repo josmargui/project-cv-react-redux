@@ -1,0 +1,18 @@
+h2{
+    text-align: center;
+}
+
+.experience-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .experience-block__item{
+        flex-wrap: wrap;
+        width: 30%;
+
+    }
+    .experience-block__itemDescription{
+        width:70%;
+        flex-wrap: wrap;
+    }
+}

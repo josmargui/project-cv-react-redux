@@ -1,4 +1,5 @@
 import React from "react";
+import { FaUser } from 'react-icons/fa';
 
 const About = ({ hero }) =>{
 
@@ -7,6 +8,7 @@ const About = ({ hero }) =>{
              {hero.map((informacion) => {
                 return (
                     <div>
+                        <h2> <FaUser /> Biografía breve </h2>
                         <p>
                             {informacion.info}
                         </p>
