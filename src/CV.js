@@ -13,15 +13,6 @@ export const CV = {
         {
           info: "Persona autodidacta, alegre, dinámica y responsable. Cualificada y experimentada para trabajar en equipos multiculturales y multidisciplinares. Durante toda mi experiencia laboral he seguido la premisa de seguir todas las fases del proyecto, así como entender la totalidad del mismo para poder realizar un trabajo con excelencia. Persona inquieta por mejorar cada día y crecer personal",
         },
-        /* {
-          info: "🔩 CEO of Stark Industries.",
-        },
-        {
-          info: "🕶 Genius, billionaire, playboy, philanthropist.",
-        },
-        {
-          info: "🦾 I do have a responsibility to keep my inventions from evil hands – but I have a greater responsibility to oppose that evil any way I can.",
-        }, */
       ],
     },
     education: [
@@ -90,19 +81,31 @@ export const CV = {
     ],
     languages: {
       language: "English",
-      wrlevel: "Native",
-      splevel: "Native",
+      level: "Certificación APTIS nivel B2",
     },
-    habilities: [
-      "Robotics",
-      "Robot Programming",
-      "Physics",
-      "Weaponery",
-      "Engineer",
-      "Money",
-      "Dating",
-      "Saving the world",
+    tecnologies: {
+      frontend: [
+      "CSS y SCSS",
+      "HTML",
+      "JavaScript",
+      "React",
+      "Angular",
     ],
+    backend: [
+      "JavaScript",
+      "Node",
+      "PHP",
+    ],
+    db: [
+      "MySQL",
+      "MongoDB",
+    ],
+    tools: [
+      "GitHub",
+      "GitLab",
+      "Visual Studio",
+    ]
+},
     volunteer: [
       {
         name: "September Foundation",

@@ -4,15 +4,13 @@ const More = ({ languages }) => {
     //console.log(languages);
     return (
         <div>
-            <p>
-                {languages.language}
-            </p>
-            <p>
-                {languages.wrlevel}
-            </p>
-            <p>
-                {languages.splevel}
-            </p>
+            <h2>Idiomas</h2>
+                <p>
+                    {languages.language}
+                </p>
+                <p>
+                    {languages.level}
+                </p>
         </div>
     );
 }

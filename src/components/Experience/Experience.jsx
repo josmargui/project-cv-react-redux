@@ -6,14 +6,14 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Experience = ({ experience }) => {
     return(
-        <div>
-            <div>
+        <div className="experience-block" >
+            <div className="experience-block-title">
                 <h2><FaToolbox/> Experiencia</h2>
             </div>
             <VerticalTimeline>
                 {experience && experience.map((exp) => {
                     return( 
-                        <div className="experience-block">
+                        
                         <VerticalTimelineElement className="vertical-timeline-element--work"
                             contentStyle={{ background: '#153840', color: 'aquamarine', marginBlock:'35px' }}
                             contentArrowStyle={{ borderRight: '7px solid  #153840' }}
@@ -28,7 +28,7 @@ const Experience = ({ experience }) => {
                                 <p>{exp.description}</p>
                             </div>
                         </VerticalTimelineElement>
-                        </div>
+                        
                         )})
                 }
             </VerticalTimeline>

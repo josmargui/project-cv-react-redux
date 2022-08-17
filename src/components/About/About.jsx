@@ -1,13 +1,14 @@
 import React from "react";
 import { FaUser } from 'react-icons/fa';
+import './about.scss'
 
 const About = ({ hero }) =>{
 
     return(
-        <div>
+        <div className="biography-block">
              {hero.map((informacion) => {
                 return (
-                    <div>
+                    <div className="biography-block-title">
                         <h2> <FaUser /> Biografía breve </h2>
                         <p>
                             {informacion.info}

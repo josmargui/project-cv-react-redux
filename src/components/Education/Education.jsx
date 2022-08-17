@@ -15,7 +15,7 @@ const Education = ({ education }) => {
             {education.map((study) => {
                 
                     return (
-                        <div>
+                        
                             <VerticalTimelineElement key={study.key} lineColor={ 'red' } className="vertical-timeline-element--work" 
                                 contentStyle={{ background: '#153840', color: 'white', marginBlock:'35px' }}
                                 contentArrowStyle={{ borderRight: '7px solid  #153840' }}
@@ -28,13 +28,13 @@ const Education = ({ education }) => {
                                     {study.where}
                                 </p>
                             </VerticalTimelineElement>
-                        </div>
+                        
                     );
                     
                 })
             }
             
-            {/* <VerticalTimelineElement
+            <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="2002 - 2006"
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -49,7 +49,7 @@ const Education = ({ education }) => {
             <VerticalTimelineElement
                 iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                 icon={<FaGraduationCap />}
-            /> */}
+            />
             </VerticalTimeline>
         </div>
     );

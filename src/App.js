@@ -8,11 +8,12 @@ import Hero from './components/Hero/Hero';
 import More from './components/More/More';
 import { useDispatch, useSelector } from 'react-redux';
 import { clickEducation, clickExperience } from './redux/cv/cv.actions';
+import Tecnologies from './components/Tecnologies/Tecnologies';
 
 
 
 
-const { hero, education, experience, languages, habilities, volunteer } = CV;
+const { hero, education, experience, languages, tecnologies, volunteer } = CV;
 
 
 function App() {
@@ -28,21 +29,24 @@ function App() {
       
       <Hero hero={hero}/>
       <About hero={hero.aboutMe} />
-      <button onClick={() => dispatch(clickEducation())}>Formación</button>
-      <button onClick={() => dispatch(clickExperience())}>Experiencia</button>
-      {educationProp === 1 ? 
-        <Education education={education}/>
-         : educationProp === 2 ? (
-          <Experience experience={experience}/>
-          ):""}
-      {/* <Education education={education}/> 
-      <Experience experience={experience}/> */}
+      <div className='block-navbar'>
+        <button onClick={() => dispatch(clickEducation())}>Formación</button>
+        <button onClick={() => dispatch(clickExperience())}>Experiencia</button>
+      </div>  
+        {educationProp === 1 ? 
+          <Education education={education}/>
+          : educationProp === 2 ? (
+            <Experience experience={experience}/>
+            ):""}    
       <More
       languages={languages}
       /*
       habilities={habilities}
       volunteer={volunteer}*/
       /> 
+      <Tecnologies tecnologies={tecnologies}/>
+
+
     </div>
   );
 }

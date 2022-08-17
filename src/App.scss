@@ -7,3 +7,12 @@ body{
   /*background-color: #153840;*/
   margin: 20px;
 }
+
+.block-navbar{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin:20px;
+
+}
