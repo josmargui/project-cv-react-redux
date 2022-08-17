@@ -21,10 +21,10 @@ const Experience = ({ experience }) => {
                             icon={<FaToolbox/>}>
                             <div className="experience-block__item">
                                 <h3>{exp.where}</h3>
-                                <p>{exp.date}</p>
+                                {/* <p>{exp.date}</p> */}
                             </div>
                             <div className="experience-block__itemDescription">
-                                <p>{exp.name}</p>
+                                <h3>{exp.name}</h3>
                                 <p>{exp.description}</p>
                             </div>
                         </VerticalTimelineElement>

@@ -1,13 +1,14 @@
 import React from "react";
 import './Hero.scss'
 import { FaHome,FaEnvelope,FaLinkedin,FaMobileAlt, FaMapMarkerAlt, FaGithub,FaCalendarAlt } from 'react-icons/fa';
+import imageCV from '../../images/foto-cv.jpg';
 
 const Hero = ({ hero }) =>{
 
     return(
         <div className="header-block">
             <div className="header-block__item">
-                <img src="../images/foto-cv.jpg" alt="Jose Antº"/>
+                <img src={imageCV} alt="Jose Antº"/>
                 <h2>{hero.name}</h2>
                 <h3>{hero.profession}</h3>
             </div>

@@ -5,7 +5,7 @@ body{
 
 .App {
   /*background-color: #153840;*/
-  margin: 20px;
+  margin: 2% 10% 2% 10%;
 }
 
 .block-navbar{
@@ -13,6 +13,17 @@ body{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin:20px;
+  margin:30px;
 
+}
+
+.button-navbar{
+  margin:40px 0px 10px 0px ;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #153840;
+  background-color:#153840;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
 }

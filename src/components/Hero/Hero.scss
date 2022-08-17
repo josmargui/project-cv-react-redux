@@ -21,13 +21,27 @@
         align-items: flex-start;
     }
 }
+.header-block__item{ 
+    text-align: center;
+    img{
+        width: 150px;
+        border-radius: 75px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+}
 
-/* @media (min-width: 700px) {
+@media (max-width: 700px) {
     
-    .personal-data-block{
-            width: 100%;
+    .header-block{
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
         }
         
     
- } */
+ }
 

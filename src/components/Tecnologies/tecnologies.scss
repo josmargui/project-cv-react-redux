@@ -37,6 +37,13 @@
         text-align: center;
     }
 }
+
+@media (max-width:900px){
+    .tecnologies-block__item{
+        
+        width: 100%;
+    }
+}
 .tecnologies-block-title{
     text-align: center;
     h2{

@@ -30,9 +30,9 @@ function App() {
       <Hero hero={hero}/>
       <About hero={hero.aboutMe} />
       <div className='block-navbar'>
-        <button onClick={() => dispatch(clickEducation())}>Formación</button>
-        <button onClick={() => dispatch(clickSoftware())}>Software</button>
-        <button onClick={() => dispatch(clickExperience())}>Experiencia</button>
+        <button className='button-navbar' onClick={() => dispatch(clickEducation())}>Formación</button>
+        <button className='button-navbar' onClick={() => dispatch(clickSoftware())}>Software</button>
+        <button className='button-navbar' onClick={() => dispatch(clickExperience())}>Experiencia</button>
       </div>  
         {educationProp === 1 ? 
           <Education education={education}/>
