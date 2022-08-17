@@ -1,5 +1,7 @@
 import React from 'react'
 import './tecnologies.scss'
+import { FaLaptopCode } from 'react-icons/fa';
+
 
 const Tecnologies = ( {tecnologies} ) => {
     console.log(tecnologies.frontend);
@@ -10,44 +12,71 @@ const Tecnologies = ( {tecnologies} ) => {
   return (
     <div>
         <div className='tecnologies-block-title'>
-            <h2>Tecnologías</h2>
+            <h2><span><FaLaptopCode/></span>Tecnologías</h2>
         </div> 
         <div className='tecnologies-block'> 
             <div className='tecnologies-block__item'>
                 <h3>Frontend</h3>
-                {tecnologies && front.map((fro) => {
-                    return(
-                        <p>{fro}</p>
-                    );
-                })
-                }
+                <div className='tecnologies-block_type'>
+                    {tecnologies && front.map((fro) => {
+                        return(
+                                <>
+                                <p>
+                                    {fro}
+                                </p>
+                                </>
+                            
+                        );
+                    })
+                    }
+                </div>
             </div>
+
             <div className='tecnologies-block__item'>
                 <h3>Backend</h3>
-                {tecnologies && back.map((back) => {
-                    return(
-                        <p>{back}</p>
-                    );
-                })
-                }
+                <div className='tecnologies-block_type'>
+                    {tecnologies && back.map((back) => {
+                        return(
+                            <>
+                                <p>
+                                    {back}
+                                </p>
+                            </>
+                        );
+                    })
+                    }
+                </div>
             </div>
             <div className='tecnologies-block__item'>
                 <h3>Bases de Datos</h3>
-                {tecnologies && db.map((db) => {
-                    return(
-                        <p>{db}</p>
-                    );
-                })
-                }
+                <div className='tecnologies-block_type'>
+
+                    {tecnologies && db.map((db) => {
+
+                        return(
+                            <>
+                                <p>
+                                    {db}
+                                </p>
+                            </>
+                            
+                        );
+                    })
+                    }
+                </div>
             </div>
             <div className='tecnologies-block__item'>
                 <h3>Herramientas</h3>
-                {tecnologies && tools.map((tool) => {
-                    return(
-                        <p>{tool}</p>
-                    );
-                })
-                }
+                <div className='tecnologies-block_type'>
+                    {tecnologies && tools.map((tool) => {
+                        return(
+                            <>
+                                <p>{tool}</p>
+                            </>
+                        );
+                    })
+                    }
+                </div>
             </div>
         </div>
     </div>

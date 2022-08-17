@@ -15,12 +15,12 @@ const Experience = ({ experience }) => {
                     return( 
                         
                         <VerticalTimelineElement className="vertical-timeline-element--work"
-                            contentStyle={{ background: '#153840', color: 'aquamarine', marginBlock:'35px' }}
+                            contentStyle={{ background: '#153840', color: '#fff', marginBlock:'35px' }}
                             contentArrowStyle={{ borderRight: '7px solid  #153840' }}
                             date={exp.date} dateClassName={"dateString" }iconStyle={{ background: '#153840', color: '#fff' }}
                             icon={<FaToolbox/>}>
                             <div className="experience-block__item">
-                                <p>{exp.where}</p>
+                                <h3>{exp.where}</h3>
                                 <p>{exp.date}</p>
                             </div>
                             <div className="experience-block__itemDescription">

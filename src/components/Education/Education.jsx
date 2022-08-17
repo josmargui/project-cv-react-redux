@@ -17,7 +17,7 @@ const Education = ({ education }) => {
                     return (
                         
                             <VerticalTimelineElement key={study.key} lineColor={ 'red' } className="vertical-timeline-element--work" 
-                                contentStyle={{ background: '#153840', color: 'white', marginBlock:'35px' }}
+                                contentStyle={{ background: '#153840', color: 'white', }}
                                 contentArrowStyle={{ borderRight: '7px solid  #153840' }}
                                 date={study.date} dateClassName={"dateString"}  iconStyle={{ background: '#153840', color: '#fff' }}
                                 icon={<FaGraduationCap/>}>
@@ -34,7 +34,7 @@ const Education = ({ education }) => {
                 })
             }
             
-            <VerticalTimelineElement
+            {/* <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="2002 - 2006"
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -49,7 +49,7 @@ const Education = ({ education }) => {
             <VerticalTimelineElement
                 iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                 icon={<FaGraduationCap />}
-            />
+            /> */}
             </VerticalTimeline>
         </div>
     );

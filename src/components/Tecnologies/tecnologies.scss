@@ -5,7 +5,7 @@
     align-items: center;
     
     
-}
+} 
 .tecnologies-block__item{
     width: 20%;
     border: 1px solid #153840;
@@ -14,11 +14,21 @@
     margin:10px;
     height: 200px;
     box-shadow: 0px 10px 10px -3px #153840;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+    h3{
+        text-align: center;
+    }
+}
+.tecnologies-block_type{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     p{
-        display: inline-flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        
         margin: 5px;
         background-color: #153840;
         color: #fff;
@@ -26,11 +36,15 @@
         border-radius: 5px;
         text-align: center;
     }
-    h3{
-        text-align: center;
-    }
 }
-
 .tecnologies-block-title{
     text-align: center;
+    h2{
+        color: #153840;
+        font-size: 30px;
+    }
+    span{
+        margin-right: 10px;
+        
+    }
 }

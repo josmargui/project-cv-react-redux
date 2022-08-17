@@ -14,6 +14,10 @@ const cvReducer = (state = INITIAL_STATE, action) =>{
             //console.log(actions.CLICK_EXPERIENCE);
             return { ...state, educationProp: 2,};
         }
+        case actions.CLICK_SOFTWARE: {
+            //console.log(actions.CLICK_SOFTWARE);
+            return { ...state, educationProp: 3,};
+        }
         default:
             return state;
     }

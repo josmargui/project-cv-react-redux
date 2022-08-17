@@ -6,12 +6,13 @@ export const CV = {
       city: "Los Palacios y Villafranca (Sevilla)",
       email: "joseantoniomartin.87@gmail.com",
       birthDate: "24/09/1987",
-      phone: "635478489",
+      phone: "635 478 489",
       image: "https://i.imgur.com/ZQAkED3.png",
+      linkedin: "https://n9.cl/es/s/vlu5n",
       gitHub: "https://github.com/josmargui",
       aboutMe: [
         {
-          info: "Persona autodidacta, alegre, dinámica y responsable. Cualificada y experimentada para trabajar en equipos multiculturales y multidisciplinares. Durante toda mi experiencia laboral he seguido la premisa de seguir todas las fases del proyecto, así como entender la totalidad del mismo para poder realizar un trabajo con excelencia. Persona inquieta por mejorar cada día y crecer personal",
+          info: "Persona autodidacta, alegre, dinámica y responsable. Cualificada y experimentada para trabajar en equipos multiculturales y multidisciplinares. Durante toda mi experiencia laboral he seguido la premisa de seguir todas las fases del proyecto, así como entender la totalidad del mismo para poder realizar un trabajo con excelencia. Persona inquieta por mejorar cada día y crecer personal y profesionalmente",
         },
       ],
     },
