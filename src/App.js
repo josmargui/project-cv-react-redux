@@ -1,4 +1,3 @@
-
 import './App.scss';
 import About from '../src/components/About/About';
 import { CV } from "./CV"

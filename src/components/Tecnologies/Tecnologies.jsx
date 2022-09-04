@@ -20,11 +20,11 @@ const Tecnologies = ( {tecnologies} ) => {
                 <div className='tecnologies-block_type'>
                     {tecnologies && front.map((fro) => {
                         return(
-                                <>
+                                
                                 <p>
                                     {fro}
                                 </p>
-                                </>
+                                
                             
                         );
                     })
